@@ -1,0 +1,15 @@
+{
+  "name": "PythonTemplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "python src/Application.py",
+    "format": "black src",
+    "test": "python  src/tests/TestingApplication.py",
+    "makenv": "python -m venv env"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
